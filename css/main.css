@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  background-color: #333;
+  color: white;
+}
+p, a, h1, h2, h3, label{
+  font-family: 'Montserrat';
+}
+nav{
+  height: 50px;
+  background-color: #61ce6c;
+}
+main{
+  padding: 50px;
+}
+#loggOutButton{
+  color: white;
+  background-color: #4f4f4f;
+  border: 1px solid #333333;
+  height: 50px;
+  width: 120px;
+  font-size: 1.1rem;
+}
+#loggOutButton:hover{
+  background-color: #7f7f7f;
+  cursor: pointer;
+}
+.button{
+  color: white;
+  background-color: #61ce6c;
+  border: 1px solid #333333;
+  height: 50px;
+  width: 120px;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.button:hover{
+  background-color: #4bea5b;
+  cursor: pointer;
+}
+.message{
+  position: absolute;
+  left: 50px;
+  top: 40px;
+}
+.red{
+  color:red;
+}
+.green{
+  color: #61ce6c;
+}
+.sessionOut{
+  padding: 50px;
+  margin: 0;
+  background-color: #222;
+  color: white;
+}
